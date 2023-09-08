@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
-git clone --depth=1 $kernel_source $device_codename
+git clone --depth=1 https://github.com/rianaryandi/xiaomi_kernel_ulysse-4.9
 git clone --depth=1 https://github.com/xyz-prjkt/xRageTC-clang clang
 
 # Main
