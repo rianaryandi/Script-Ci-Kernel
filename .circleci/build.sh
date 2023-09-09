@@ -4,11 +4,11 @@ git clone --depth=1 https://github.com/rianaryandi/xiaomi_kernel_ulysse-4.9
 git clone --depth=1 https://github.com/xyz-prjkt/xRageTC-clang clang
 
 # Main
-KERNEL_NAME=RIAN-ARYANDI_KSU_V2.0 # IMPORTANT ! Declare your kernel name
+KERNEL_NAME=RIAN-ARYANDI-KSU-V2.0 # IMPORTANT ! Declare your kernel name
 KERNEL_ROOTDIR=/root/xiaomi_kernel_ulysse-4.9 # IMPORTANT ! Fill with your kernel source root directory.
 DEVICE_CODENAME=ulysse # IMPORTANT ! Declare your device codename
 DEVICE_DEFCONFIG=ulysse_defconfig # IMPORTANT ! Declare your kernel source defconfig file here.
-CLANG_ROOTDIR=/root/gabuters-clang # IMPORTANT! Put your clang directory here.
+CLANG_ROOTDIR=/root/Gabuters-clang # IMPORTANT! Put your clang directory here.
 export KBUILD_BUILD_USER=rianaryandi # Change with your own name or else.
 export KBUILD_BUILD_HOST=rianaryandi-ci # Change with your own hostname.
 IMAGE=/out/arch/arm64/boot/Image.gz-dtb
